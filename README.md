@@ -41,7 +41,7 @@ total_counts - the total counts per cell (total number of counts for a cell),
 pct_counts_mt - the percentage of counts in mitochondrial genes (proportion of total counts for a cell which are mitochondrial).
 pct_counts_ribo - the percentage of counts in ribosomal genes (proportion of total counts for a cell which are ribosomal)
 
-![Figure 1. The violin plot of quality measures after filtration](/figures/filtration_results.png).
+![Figure 1. The violin plot of quality measures after filtration](/figures/filtration_results.png)
 Figure 1. The violin plot of quality measures after filtration
 
 **4. Searching for variable genes, PCA, UMAP**
@@ -50,10 +50,10 @@ Scanpy was used to normalize the raw count data, identify highly variable featur
 
 Figure 2 shows the results of highly-variable genes identification step. Figure 3 shows the contribution of single PCs to the total variance in the data.
 
-![Figure 2. Highly-variable genes identification results](/figures/highly_variable_genes.png).
+![Figure 2. Highly-variable genes identification results](/figures/highly_variable_genes.png)
 Figure 2. The results of highly-variable genes identification step
 
-![Figure 3. The contribution of single PCs to the total variance in the data](/figures/pca.png).
+![Figure 3. The contribution of single PCs to the total variance in the data](/figures/pca.png)
 Figure 3. The contribution of single PCs to the total variance in the data
 
 **5. Identification and annotation of T-cell clusters**
@@ -63,20 +63,20 @@ Clusters were labeled based on the expression of the canonical immune cell marke
 
 Figure 4 shows the marker genes expression among clusters. Figure 5 shows the clustering results (Leiden graph-clustering method) with clusters annotated.
 
-![Figure 4. The marker genes expression among clusters](/figures/marker_genes_expression_among_clusters.png).
+![Figure 4. The marker genes expression among clusters](/figures/marker_genes_expression_among_clusters.png)
 Figure 4. The marker genes expression among clusters
 
-![Figure 5. The clustering results](/figures/leiden_clusters_annotated.png).
+![Figure 5. The clustering results](/figures/leiden_clusters_annotated.png)
 Figure 5. The clustering results (Leiden graph-clustering method) with clusters annotated
 
 **6. TIL expression profile assessment**
 
 A ranking for the highly differential genes in each cluster was computed using wilcoxon test (Figure 6). Then a table with the scores and groups was created and saved. Part of the table is sown at Figure 7.
 
-![Figure 6. A ranking for the highly differential genes in each cluster](/figures/highly_differential_genes.png).
+![Figure 6. A ranking for the highly differential genes in each cluster](/figures/highly_differential_genes.png)
 Figure 5. A ranking for the highly differential genes in each cluster
 
-![Figure 7. Part of the table with the scores and groups](/figures/ranked.jpg).
+![Figure 7. Part of the table with the scores and groups](/figures/ranked.jpg)
 Figure 7. Part of the table with the scores and groups
 
 ### Conclusions
